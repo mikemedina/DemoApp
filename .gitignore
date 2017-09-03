@@ -1,6 +1,6 @@
 .gradle
 build
+DemoApp.iml
 .idea/workspace.xml
 .idea/libraries/
-.idea/modules/DemoApp.iml
 .idea/modules.xml
