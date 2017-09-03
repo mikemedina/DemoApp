@@ -48,6 +48,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/random_button"
         app:layout_constraintRight_toLeftOf="@+id/toast_button"
+        android:onClick="incrementCount"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
