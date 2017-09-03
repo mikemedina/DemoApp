@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">DemoApp</string>
     <string name="button_start">Start</string>
+    <string name="btn_toast">Toast</string>
+    <string name="btn_count">Count</string>
+    <string name="btn_random">Random</string>
+    <string name="txtf_count">0</string>
 </resources>
