@@ -1,8 +1,5 @@
 package com.github.mikemedina.demoapp
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
-
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,6 +17,10 @@ class MainActivity : AppCompatActivity() {
         items.add("item 4")
 
         listView.adapter = ArrayAdapter<String>(this@MainActivity, android.R.layout.simple_list_item_1, items)
+    }
+
+    fun makeToast(view: View) {
+        Toast.makeText(this, "Hello Toast!", Toast.LENGTH_SHORT).show()
     }
 
 }
