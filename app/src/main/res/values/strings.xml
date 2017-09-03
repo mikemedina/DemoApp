@@ -5,4 +5,5 @@
     <string name="btn_count">Count</string>
     <string name="btn_random">Random</string>
     <string name="txtf_count">0</string>
+    <string name="random_heading">Here is a random number between 0 and %1d</string>
 </resources>
